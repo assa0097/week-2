@@ -25,3 +25,42 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  .emojis {
+    display: grid;
+    grid-template-columns: repeat(2,430px);
+    grid-gap: 15px;
+  }
+
+  .emoji {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .emoji .icon {
+    order: 1;
+  }
+
+  .emoji h2 {
+    order: 2;
+  }
+
+  .emoji p {
+    order: 3;
+  }
+
+   .emoji a {
+    order: 4;
+    margin-top: auto;
+  }
+
+  .emoji h2 {
+    margin-right: auto;
+    position: relative;
+  } 
+
+
+
+  
